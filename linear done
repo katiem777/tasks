@@ -1,0 +1,14 @@
+
+names = ["Bob","Alice","Tom","Layla","Jake","George"]
+name = input("Enter a name to search for: ")
+found = False
+i = 0
+while found == False and i<len(names):
+    if names[i] == name:
+        found = True
+        print("name ",name, " is in the list")
+    else:
+        i = i + 1 
+        if i ==name:
+            found=True
+            print("name ",name, " isin the list")
