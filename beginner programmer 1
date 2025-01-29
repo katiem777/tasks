@@ -1,0 +1,10 @@
+
+#python program to print natural numbers up to n
+def natural_numbers():
+    i = 1
+    limit = int(input("Enter the limit number: "))
+    while i<=limit:
+        print(i)
+        i = i + 1
+
+natural_numbers()
