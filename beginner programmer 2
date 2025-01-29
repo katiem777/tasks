@@ -1,0 +1,10 @@
+
+#python program to print even numbers up to n
+def even_numbers():
+    i = 2
+    limit = int(input("Enter the limit number: "))
+    while i<=limit:
+        print(i)
+        i = i + 2
+
+even_numbers()
