@@ -1,0 +1,11 @@
+#spelling_words[5]
+def spelling_words():
+    spelling_words[0] = "path"
+    spelling_words[1] = "floor"
+    spelling_words[2] = "sugar"
+    spelling_words[3] = "because"
+    spelling_words[4] = "beautiful"
+   
+  
+for spelling_words in range(0,5):
+    print(spelling_words)
