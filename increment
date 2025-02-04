@@ -1,0 +1,23 @@
+counter = 0
+def increase_counter():
+    
+    counter += 1
+    return counter
+
+increase_counter()
+increase_counter()
+increase_counter()
+
+
+#or
+
+counter = 0
+def increase_counter():
+    global counter
+    counter = counter + 1
+    print("Counter after call: ",{counter})
+
+increase_counter()
+increase_counter()
+increase_counter()
+
